@@ -1,10 +1,11 @@
 {
   "name": "mb-takehome-server",
   "version": "1.0.0",
+  "type": "module",
   "description": "Takehome server for Malwarebytes",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon dist/index.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
   },
   "homepage": "https://github.com/necmigunduz/mb-takehome#readme",
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
   }
 }
