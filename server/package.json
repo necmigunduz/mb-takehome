@@ -1,5 +1,5 @@
 {
-  "name": "mb-takehome-serve",
+  "name": "mb-takehome-server",
   "version": "1.0.0",
   "description": "Takehome server for Malwarebytes",
   "main": "index.js",
@@ -13,12 +13,17 @@
   "keywords": [
     "NodeJS",
     "ExpressJS",
-    "MongoDB"
+    "MongoDB",
+    "api",
+    "restful"
   ],
   "author": "Necmi Gunduz",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/necmigunduz/mb-takehome/issues"
   },
-  "homepage": "https://github.com/necmigunduz/mb-takehome#readme"
+  "homepage": "https://github.com/necmigunduz/mb-takehome#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
 }
