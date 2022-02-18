@@ -1,9 +1,12 @@
 // Index
 import express from "express";
+import apiRoutes from '../routes/routes.js';
 
 // Initialize app
 let app = express();
 
+// Use API routes
+app.use('/api', apiRoutes);
 // Setup server
 let port = process.env.PORT || 4000;
 
