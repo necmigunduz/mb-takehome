@@ -1,0 +1,24 @@
+{
+  "name": "mb-takehome-serve",
+  "version": "1.0.0",
+  "description": "Takehome server for Malwarebytes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/necmigunduz/mb-takehome.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "ExpressJS",
+    "MongoDB"
+  ],
+  "author": "Necmi Gunduz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/necmigunduz/mb-takehome/issues"
+  },
+  "homepage": "https://github.com/necmigunduz/mb-takehome#readme"
+}
